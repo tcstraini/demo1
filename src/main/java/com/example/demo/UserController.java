@@ -28,7 +28,7 @@ public class UserController {
 	}
 	@DeleteMapping("/user")
 	void deleteUser() {
-		
+		//practicing to create new branch
 	}
 		
 	
