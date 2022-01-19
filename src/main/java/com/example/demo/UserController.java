@@ -1,6 +1,7 @@
 package com.example.demo;
 
 import com.example.demo.entity.User;
+import com.example.demo.service.IUserService;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,9 +20,6 @@ public class UserController {
 		System.out.println("testing");
 		return "testing";
 	}
-	@PostMapping("/user")
-	void createUser(@RequestBody User user) {
-		
 	
 	@PostMapping("/user")
 	void createUser(@RequestBody User user) {
@@ -30,9 +28,9 @@ public class UserController {
 	}
 	@DeleteMapping("/user")
 	void deleteUser() {
-		//TODO Auto-generated method stub
+		
 	}
-	}	
-	}
+		
+	
 }
  
